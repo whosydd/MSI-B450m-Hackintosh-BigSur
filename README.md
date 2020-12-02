@@ -27,6 +27,6 @@
 ## 目前存在的问题
 
 1. 由于innie.kext还没有适配bigsur，所以桌面会出现nvme磁盘标识
-2. 为了解决MacPro7,1内存的问题，我修改了config.plist中的内存信息，我只插了8Gx2内存条，建议根据自己的内存容量进行修改（可参考：https://dortania.github.io/OpenCore-Post-Install/universal/memory.html）
+2. 为了解决MacPro7,1内存的问题，我修改了config.plist中的内存信息，建议根据自己的内存容量进行修改（可参考：https://dortania.github.io/OpenCore-Post-Install/universal/memory.html）
 
 ![](https://i.loli.net/2020/12/03/D5c619Rjrpxdhby.png)
