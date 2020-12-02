@@ -24,6 +24,16 @@
 
 <br>
 
+## 添加&删除的功能
+
+**添加**针对intel ax200网卡的驱动，以及显卡优化radeonboost.kext
+
+**删除**AppleALC.kext(由于我平时不用板载声卡，所以直接删除了声音驱动)
+
+
+
+<br>
+
 ## 目前存在的问题
 
 1. 由于innie.kext还没有适配bigsur，所以桌面会出现nvme磁盘标识
