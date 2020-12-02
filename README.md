@@ -4,7 +4,7 @@
 
 ## 前言
 
-1. 该EFI文件基于[dellusa](https://github.com/dellusa/Opencore-MSI-B450M-PRO-R5-3600)提供的EFI文件，针对我自己的需求进行一定修改
+1. 该EFI文件基于[dellusa](https://github.com/dellusa/Opencore-MSI-B450M-PRO-R5-3600)提供的EFI文件，并针对个人需求进行一定修改
 
 2. 建议使用前先浏览[dellusa](https://github.com/dellusa/Opencore-MSI-B450M-PRO-R5-3600)提供的说明，以免出现问题
 
