@@ -40,6 +40,6 @@
 
 2. 【已解决】MacPro7,1机型每次开机都出现内存相关提示信息的问题
 
-   **重要说明**：针对该问题我修改了config.plist中的内存信息，使用该EFI文件时，**一定要**先根据自己的内存容量进行修改（可参考：https://dortania.github.io/OpenCore-Post-Install/universal/memory.html）
+   **重要说明**：针对该问题我修改了config.plist中的内存信息，使用该EFI文件时，**一定要**先根据自己的内存信息进行修改（参考：https://dortania.github.io/OpenCore-Post-Install/universal/memory.html）
 
 ![](https://i.loli.net/2020/12/03/D5c619Rjrpxdhby.png)
