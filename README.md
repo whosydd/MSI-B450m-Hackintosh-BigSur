@@ -38,7 +38,7 @@
 
 1. 【已解决】由于innie.kext还没有适配bigsur，所以桌面会出现nvme磁盘标识
 
-   **说明**：已通过修改config的方式解决该问题（详情可参考https://www.reddit.com/r/hackintosh/comments/f0cc4t/internal_drives_shown_as_external_opencore_amd/）
+   **说明**：已通过修改config的方式解决该问题，详情可参考https://www.reddit.com/r/hackintosh/comments/f0cc4t/internal_drives_shown_as_external_opencore_amd/
 
 2. 【已解决】MacPro7,1机型每次开机都出现内存相关提示信息的问题
 
