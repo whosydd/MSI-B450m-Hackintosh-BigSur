@@ -1,18 +1,8 @@
 # MSI-B450m-MORTAR-Hackintosh-BigSur
 
-
-
-## 前言
-
-1. 该EFI文件基于[dellusa](https://github.com/dellusa/Opencore-MSI-B450M-PRO-R5-3600)提供的EFI文件，并针对个人需求进行一定修改
-
-2. 建议使用前先浏览[dellusa](https://github.com/dellusa/Opencore-MSI-B450M-PRO-R5-3600)提供的说明，以免出现问题
-
-
-
 <br>
 
-## 配置清单
+### 配置清单
 
 | 类型 | 型号                  |
 | ---- | --------------------- |
@@ -20,21 +10,47 @@
 | CPU  | AMD R5 3600           |
 | 显卡 | 蓝宝石 RX 590         |
 
+<br>
 
+## 11.1（2020-12-27新增）
+
+### 前言
+
+该版本EFI基于[Tyrone2333](https://github.com/Tyrone2333/r5-2600-b450m-bazooka-5700-hackintosh)，使用的是iMacPro1,1机型，我目前正在使用中，可以正常使用接力、iMessage，暂未发现其他问题。
 
 <br>
 
-## 添加&删除的功能
+### 添加&删除的功能
+
+**添加**针对intel ax200网卡的驱动
+
+**删除**AppleALC.kext(由于我平时不用板载声卡，所以直接删除了声音驱动)
+
+<br>
+
+nvme改内置可参考https://www.reddit.com/r/hackintosh/comments/f0cc4t/internal_drives_shown_as_external_opencore_amd/
+
+<br>
+
+<br>
+
+## 11.0.1
+
+### 前言
+
+该版本EFI基于[dellusa](https://github.com/dellusa/Opencore-MSI-B450M-PRO-R5-3600)，使用的是MacPro7,1机型，实际使用中确实会存在一些问题，比如无法使用接力、iMessage等
+
+<br>
+
+### 添加&删除的功能
 
 **添加**针对intel ax200网卡的驱动，以及显卡优化radeonboost.kext
 
 **删除**AppleALC.kext(由于我平时不用板载声卡，所以直接删除了声音驱动)
 
-
-
 <br>
 
-## 目前存在的问题
+### 目前存在的问题
 
 1. 【已解决】由于innie.kext还没有适配bigsur，所以桌面会出现nvme磁盘标识
 
