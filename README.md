@@ -30,7 +30,7 @@
 
 ### nvme改内置（解决桌面出现橙色硬盘）
 
-打开hackintool，切换到**PCI**标签页，查找“**Mass storage controller**”项，右键点击“**Copy Device Path**”，会获得类似于“*PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)*”的字符串，然后打开**EFI**中的**config.plist**，搜索“**DeviceProperties**”，然后将"**add**"中的子项替换即可。
+打开**hackintool**，切换到**PCI**标签页，查找“**Mass storage controller**”项，右键点击“**Copy Device Path**”，会获得类似于“*PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)*”的字符串，然后打开**EFI**中的**config.plist**，搜索“**DeviceProperties**”，然后将"**add**"中的子项替换即可。
 
 详细步骤可参考https://www.reddit.com/r/hackintosh/comments/f0cc4t/internal_drives_shown_as_external_opencore_amd/
 
