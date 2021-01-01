@@ -12,11 +12,19 @@
 
 <br>
 
-## 11.1（2020-12-27新增）
+## BigSur 11.1 （2021-1-1新增）
 
 ### 前言
 
-该版本EFI基于[Tyrone2333](https://github.com/Tyrone2333/r5-2600-b450m-bazooka-5700-hackintosh)，使用的是iMacPro1,1机型，我目前正在使用中，可以正常使用接力、iMessage，暂未发现其他问题。
+这是我之前Star的[heyxiaobai提供的配置文件](https://github.com/heyxiaobai/MSI-B450m-MORTAR-Hackintosh)，在[Catalina](https://github.com/Whosydd/MSI-B450m-Hackintosh-Catalina)中用着很不错，这次发现更新了11.1版本，所以也就直接拿过来了。。。和之前一样，删除了AppleALC，添加了AX200的WiFi和蓝牙驱动，唯一的区别就是这个启动项没有图形界面。
+
+<br>
+
+## BigSur 11.1（2020-12-27新增）
+
+### 前言
+
+该版本EFI基于[Tyrone2333](https://github.com/Tyrone2333/r5-2600-b450m-bazooka-5700-hackintosh)，启动项有图形界面，使用的是iMacPro1,1机型，我目前正在使用中，可以正常使用接力、iMessage，暂未发现其他问题。
 
 <br>
 
@@ -38,7 +46,7 @@
 
 <br>
 
-## 11.0.1
+## BigSur 11.0.1
 
 ### 前言
 
